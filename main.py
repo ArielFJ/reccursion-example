@@ -26,6 +26,7 @@ def measure_func_time(func):
 
 fib_n = 40
 
+print('Buscando dígito #', fib_n, sep='')
 measure_func_time(lambda _: fibonacci(fib_n))
 measure_func_time(lambda _: recursive_fibonacci(fib_n))
 
